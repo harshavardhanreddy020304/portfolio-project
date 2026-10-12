@@ -1,6 +1,6 @@
-# 🎨 Personal Portfolio Website — Y2K Vaporwave
+# 🎨 Personal Portfolio Website 
 
-A responsive personal portfolio website built with **pure HTML5 and CSS3** — no JavaScript, no frameworks, no external icon libraries.
+A responsive personal portfolio website built with **pure HTML5 and CSS3**.
 
 Designed as the final submission for the **HTML & CSS Internship Project (EWB Courses)**.
 
