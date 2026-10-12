@@ -188,37 +188,6 @@ xdg-open index.html
 
 ---
 
-## ✅ Internship Requirements — Compliance
-
-| Requirement | Status |
-|-------------|--------|
-| Valid HTML5 structure with `<!DOCTYPE html>` | ✅ |
-| Semantic tags (`header`, `nav`, `main`, `section`, `article`, `footer`) | ✅ |
-| Separate `style.css` file | ✅ |
-| CSS variables for main colours | ✅ |
-| Flexbox **or** CSS Grid used | ✅ Both used |
-| Responsive media query | ✅ 3 breakpoints |
-| Hover/focus states on buttons, links, cards | ✅ |
-| All 7 required sections present | ✅ |
-| At least 5 skills shown | ✅ 10 skills |
-| At least 2 project cards | ✅ 4 projects |
-| Alt text on images | ✅ |
-| No horizontal overflow on mobile | ✅ |
-| **No JavaScript** | ✅ Zero JS |
-| **No frameworks** (Bootstrap, React, etc.) | ✅ None used |
-
-### Required Sections — All Present ✅
-
-1. ✅ **Header / Navigation** — logo + links to Home, About, Skills, Projects, Contact
-2. ✅ **Hero / Home** — name, role, intro, buttons
-3. ✅ **About Me** — bio, education, career interests
-4. ✅ **Skills** — 10 skills shown as numbered cards
-5. ✅ **Projects** — 4 project cards with title, description, tech stack, screenshot
-6. ✅ **Contact** — email, GitHub, LinkedIn
-7. ✅ **Footer** — copyright + author name
-
----
-
 ## 🎓 Learning Outcomes
 
 Through this project I practised and strengthened:
