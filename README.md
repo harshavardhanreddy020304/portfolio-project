@@ -2,8 +2,6 @@
 
 A responsive personal portfolio website built with **pure HTML5 and CSS3**.
 
-Designed as the final submission for the **HTML & CSS Internship Project (EWB Courses)**.
-
 ---
 
 ## 📑 Table of Contents
