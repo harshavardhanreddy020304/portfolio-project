@@ -1,11 +1,4 @@
-/* ======================================================
-   GOOGLE FONTS
-====================================================== */
 @import url('https://fonts.googleapis.com/css2?family=VT323&family=Outfit:wght@300;400;500;600;700;800&display=swap');
-
-/* ======================================================
-   DESIGN TOKENS
-====================================================== */
 :root {
     --bg: #0A0416;
     --bg-2: #140828;
@@ -32,10 +25,6 @@
     --pad-x: clamp(1.1rem, 4vw, 3.5rem);
     --section-y: clamp(4rem, 8vw, 7rem);
 }
-
-/* ======================================================
-   RESET
-====================================================== */
 * {
     margin: 0;
     padding: 0;
@@ -76,10 +65,6 @@ ul,
 ol {
     list-style: none;
 }
-
-/* ======================================================
-   CRT SCANLINE OVERLAY
-====================================================== */
 .crt-overlay {
     position: fixed;
     inset: 0;
@@ -93,10 +78,6 @@ ol {
             transparent 3px);
     mix-blend-mode: overlay;
 }
-
-/* ======================================================
-   HEADER
-====================================================== */
 .site-header {
     position: fixed;
     inset: 0 0 auto 0;
@@ -226,10 +207,6 @@ ol {
     color: var(--bg) !important;
     box-shadow: 0 0 22px rgba(255, 45, 149, .85);
 }
-
-/* ======================================================
-   SECTION SHARED
-====================================================== */
 main>section {
     padding: var(--section-y) var(--pad-x);
     max-width: 1280px;
@@ -294,10 +271,6 @@ main>section {
     text-shadow: 0 0 10px rgba(180, 255, 61, .5);
     margin-bottom: 1.5rem;
 }
-
-/* ======================================================
-   HERO
-====================================================== */
 .hero {
     padding-top: calc(var(--section-y) + 60px);
     position: relative;
@@ -419,8 +392,6 @@ main>section {
     color: var(--pink);
     text-shadow: var(--glow-pink);
 }
-
-/* ✅ The bio/description you want BEFORE the image */
 .hero-bio {
     font-size: 1.02rem;
     color: var(--text-dim);
@@ -434,8 +405,6 @@ main>section {
     gap: 1rem;
     margin-bottom: 2.5rem;
 }
-
-/* Buttons */
 .btn {
     display: inline-flex;
     align-items: center;
@@ -508,8 +477,6 @@ main>section {
     letter-spacing: .12em;
     color: var(--text-dim);
 }
-
-/* Hero visual */
 .hero-visual {
     display: flex;
     flex-direction: column;
@@ -604,10 +571,6 @@ main>section {
     letter-spacing: .15em;
     color: var(--text-dim);
 }
-
-/* ======================================================
-   ABOUT
-====================================================== */
 .about-grid {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
@@ -741,10 +704,6 @@ main>section {
     color: var(--lime);
     text-shadow: 0 0 8px rgba(180, 255, 61, .45);
 }
-
-/* ======================================================
-   SKILLS
-====================================================== */
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
@@ -889,10 +848,6 @@ main>section {
     border: 1px solid rgba(0, 240, 255, .4);
     color: var(--cyan);
 }
-
-/* ======================================================
-   CONTACT
-====================================================== */
 .contact-grid {
     display: grid;
     grid-template-columns: 1fr 1.1fr;
@@ -974,10 +929,6 @@ main>section {
     color: var(--pink);
     text-shadow: var(--glow-pink);
 }
-
-/* ======================================================
-   FOOTER
-====================================================== */
 .site-footer {
     background: var(--bg-2);
     padding: 2.5rem var(--pad-x);
@@ -1027,10 +978,6 @@ main>section {
     letter-spacing: .1em;
     color: var(--text-dim);
 }
-
-/* ======================================================
-   TABLET — 1024px
-====================================================== */
 @media (max-width: 1024px) {
 
     .hero-grid,
@@ -1038,8 +985,6 @@ main>section {
     .contact-grid {
         grid-template-columns: 1fr;
     }
-
-    /* ✅ Image AFTER the text block */
     .hero-visual {
         order: 2;
         margin-top: 2rem;
@@ -1071,16 +1016,11 @@ main>section {
     }
 }
 
-/* ======================================================
-   MOBILE — 720px
-====================================================== */
 @media (max-width: 720px) {
 
     body {
         font-size: 15px;
     }
-
-    /* ✅ Header stays fixed but shrinks and stacks cleanly */
     .site-header {
         position: fixed;
         inset: 0 0 auto 0;
@@ -1099,7 +1039,6 @@ main>section {
         justify-content: center;
     }
 
-    /* ✅ Navbar VISIBLE with pill links that wrap */
     .nav-list {
         display: flex;
         flex-wrap: wrap;
@@ -1134,7 +1073,6 @@ main>section {
         color: var(--bg) !important;
     }
 
-    /* ✅ Extra top padding so fixed stacked header doesn't cover content */
     .hero {
         padding-top: 14rem;
     }
@@ -1214,9 +1152,6 @@ main>section {
     }
 }
 
-/* ======================================================
-   SMALL MOBILE — 400px
-====================================================== */
 @media (max-width: 400px) {
     .nav-list {
         font-size: .82rem;
@@ -1240,9 +1175,6 @@ main>section {
     }
 }
 
-/* ======================================================
-   ACCESSIBILITY
-====================================================== */
 :focus-visible {
     outline: 2.5px solid var(--cyan);
     outline-offset: 3px;
@@ -1270,12 +1202,9 @@ main>section {
         order: 1;
     }
 
-    /* text block first */
     .hero-visual {
         order: 2;
     }
-
-    /* image after */
 }
 
 @media (max-width: 720px) {
